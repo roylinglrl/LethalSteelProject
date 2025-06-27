@@ -1,0 +1,52 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:ruined_sword",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:smite",
+            "lvl": 2
+          },
+          {
+            "id": "minecraft:fire_aspect",
+            "lvl": 2
+          }
+        ],
+        "kill": 800,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 8888,
+        "refine": 6
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

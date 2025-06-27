@@ -1,0 +1,48 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:light_sword",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:tnt"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:fire_aspect",
+            "lvl": 2
+          },
+          {
+            "id": "minecraft:sharpness",
+            "lvl": 2
+          }
+        ],
+        "kill": 1000,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 15000,
+        "refine": 10
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "pattern": [
+    "CBE",
+    "BDB",
+    "EBC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

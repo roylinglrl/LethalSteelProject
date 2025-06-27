@@ -1,0 +1,52 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:ssa_roze",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:comparator"
+    },
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:flint"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:bane_of_arthropods",
+            "lvl": 2
+          },
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "kill": 1500,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 10000,
+        "refine": 10
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

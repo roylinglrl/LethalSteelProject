@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:moonveil",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:glowstone_dust"
+    },
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:power",
+            "lvl": 3
+          }
+        ],
+        "kill": 1333,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 13333,
+        "refine": 3
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "pattern": [
+    "ABE",
+    "BDB",
+    "EBA"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

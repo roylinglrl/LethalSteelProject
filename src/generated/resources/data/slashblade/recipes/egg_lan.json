@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:egg_lan",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:sugar_cane"
+    },
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:ender_pearl"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:smite",
+            "lvl": 4
+          }
+        ],
+        "kill": 1777,
+        "proud_soul": 17777,
+        "refine": 17
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:gold_block"
+    },
+    "F": {
+      "type": "item",
+      "item": "minecraft:poppy"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "BDB",
+    "EBF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:air_sword",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "item",
+      "item": "minecraft:cobblestone"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "kill": 7,
+        "proud_soul": 7,
+        "refine": 0
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "EBE",
+    "BDB",
+    "EBE"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

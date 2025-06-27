@@ -1,0 +1,44 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:dissociator",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:lapis_block"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "kill": 1000,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 15000,
+        "refine": 10
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "CBE",
+    "BDB",
+    "EBC"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

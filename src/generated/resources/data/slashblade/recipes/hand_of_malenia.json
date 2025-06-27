@@ -1,0 +1,48 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:hand_of_malenia",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:ender_eye"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:feather"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:unbreaking",
+            "lvl": 3
+          }
+        ],
+        "kill": 2000,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 40000,
+        "refine": 30
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:axolotl_bucket"
+    },
+    "G": {
+      "type": "item",
+      "item": "slashblade:proudsoul_sphere"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "CDE",
+    "GGG"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

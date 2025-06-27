@@ -1,0 +1,40 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:clothesline",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:bane_of_arthropods",
+            "lvl": 2
+          }
+        ],
+        "kill": 117,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 7777,
+        "refine": 3
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    " BE",
+    "BDB",
+    "EB "
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

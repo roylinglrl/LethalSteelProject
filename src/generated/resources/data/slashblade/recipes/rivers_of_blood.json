@@ -1,0 +1,56 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:rivers_of_blood",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "item",
+      "item": "minecraft:soul_lantern"
+    },
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "C": {
+      "type": "item",
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:power",
+            "lvl": 1
+          },
+          {
+            "id": "minecraft:sharpness",
+            "lvl": 1
+          }
+        ],
+        "kill": 1666,
+        "name": "slashblade:kanze_masamune",
+        "proud_soul": 16666,
+        "refine": 6
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:bone_block"
+    },
+    "F": {
+      "type": "item",
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "pattern": [
+    "ABE",
+    "BDB",
+    "CBF"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

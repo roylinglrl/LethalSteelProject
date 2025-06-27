@@ -1,0 +1,39 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade:dojikiri_yasutsuna",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "item",
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "enchantments": [
+          {
+            "id": "minecraft:power",
+            "lvl": 2
+          }
+        ],
+        "kill": 800,
+        "proud_soul": 2000,
+        "refine": 5
+      }
+    },
+    "E": {
+      "type": "item",
+      "item": "minecraft:gold_block"
+    }
+  },
+  "pattern": [
+    " BE",
+    "BDB",
+    "EB"
+  ],
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

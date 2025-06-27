@@ -1,0 +1,52 @@
+# Blender 4.4.3 MTL File: '闪刀露世.blend'
+# www.blender.org
+
+newmtl mat
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.072727 0.072727 0.072727
+Ke 0.000000 0.000000 0.000000
+Ni 27.999998
+illum 2
+map_Kd D:/Desktop/mod/Lethal Steel Project/src/main/resources/assets/slashblade/model/named/lush/text.png
+map_d D:/Desktop/mod/Lethal Steel Project/src/main/resources/assets/slashblade/model/named/lush/text.png
+
+newmtl mat.003
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.072727 0.072727 0.072727
+Ke 0.000000 0.000000 0.000000
+Ni 27.999998
+d 1.000000
+illum 3
+
+newmtl mat.014
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.072727 0.072727 0.072727
+Ke 0.000000 0.000000 0.000000
+Ni 27.999998
+d 1.000000
+illum 3
+
+newmtl mat.016
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.072727 0.072727 0.072727
+Ke 0.000000 0.000000 0.000000
+Ni 27.999998
+d 1.000000
+illum 3
+
+newmtl mat.017
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.072727 0.072727 0.072727
+Ke 0.000000 0.000000 0.000000
+Ni 27.999998
+d 1.000000
+illum 3
